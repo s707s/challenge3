@@ -1,0 +1,116 @@
+body {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+}
+
+p {
+  padding-bottom: 4.5rem;
+}
+
+.container {
+  width: 62%;
+  display: flex;
+  flex-direction: row;
+  margin: 10% auto 3%;
+}
+
+.first-container, .second-container, .thired-container {
+  padding: 3rem;
+}
+
+.first-container {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 2% 0 0 2%;
+}
+
+.myButton {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 3px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #e38826;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #e38826;
+  color: #ffffff;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.second-container {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.myButton2 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 3px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #006970;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.myButton2:hover {
+  background-color: #006970;
+  color: #ffffff;
+}
+
+.myButton2:active {
+  position: relative;
+  top: 1px;
+}
+
+.thired-container {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 2% 2% 0;
+}
+
+.myButton3 {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 3px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #004241;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.myButton3:hover {
+  background-color: #004241;
+  color: #ffffff;
+}
+
+.myButton3:active {
+  position: relative;
+  top: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
